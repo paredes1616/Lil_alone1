@@ -4,12 +4,17 @@
 <title>Lil Alone_official</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 h1,h2 {
   text-align: center;
   text-transform: uppercase;
   color: #722F37;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700; 
 }
-
 
 p {
   text-indent: 50px;
@@ -17,7 +22,10 @@ p {
   letter-spacing: 3px;
   text-decoration: none;
   color:#c00000;
-}
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400; 
 
 body {
     background-image: url('https://i.pinimg.com/originals/db/6e/8d/db6e8dc2c34c11c097e702105564c2f1.gif'); 
@@ -35,7 +43,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-  body {
+body {
     image-rendering: pixelated; 
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
@@ -43,65 +51,41 @@ body {
     -ms-interpolation-mode: nearest-neighbor;
 }
 
-p {
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-  
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-h1,h2 {
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-  
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 div.Navbar {
   margin-left: 15px;
   margin-right: 15px;
-}
-.icons {
-  height: 100px;
-  width: 100%;
-}
-.img_container {
-  float: left;
-  width: 20%;
-  margin-right: 5%;
-  margin-bottom: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 15px;
 }
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
+.icons {
+  height: auto; 
+  max-width: 100%;
+  display: block; 
+  border-radius: 5px;
+}
+
+.img_container {
+  max-width: 200px; 
+  width: 45%; 
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 700px) {
+  .img_container {
+    width: 20%; 
   }
 }
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
+
   
 </style>
 </head>
 <body>
-
-<img src="channels4_banner.jpg" height="250">
+<img src="channels4_banner.jpg" style="max-width: 100%; height: auto;">
 <div>
   <br>
     <h1> ABOUT ME</h1>
@@ -109,24 +93,27 @@ div.Navbar {
   <br> 
     <h2>CHECK OUT MY SOCIALS</h2>
   
-<div class="NavBar">
+<div class="Navbar">
   <div class="img_container">
     <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4r1jNM5RtNvMiTDjExa3SY/en" class="icons">
     <a href="open.spotify.com/artist/4r1jNM5RtNvMiTDjExa3SY" style="text-decoration:none; color:#c00000;"><p>Spotify</p><p></a>
   </div>
   <div class="img_container">
     <img src="https://i.ytimg.com/vi/PihBhYKSaCk/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGDggZShHMA8=&rs=AOn4CLD-mwtNRPdqKsteZdHnKmE16DP0WA" class="icons">
-    <a href="https://www.youtube.com/@lilalone1" style="text-decoration:none; color:"#c00000;"><p>YouTube</p><p></a>
+    <a href="https://www.youtube.com/@lilalone1" style="text-decoration:none; color:#c00000;"><p>YouTube</p><p></a>
   </div>
   <div class="img_container">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZlVbz6_M1z6wxysz2IwP5no6fD8aCd0fnFg&s" class="icons">
-    <a href="soundcloud.com/ug-senura-679158691" style="text-decoration:none; color:"#c00000;"><p>SoundCloud</p><p></a>
+    <a href="soundcloud.com/ug-senura-679158691" style="text-decoration:none; color:#c00000;"><p>SoundCloud</p><p></a>
   </div>
   <div class="img_container">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiElR9TSu17iYWII1sRtM7ul8ggjvSoMTPiw&s" class="icons">
-    <a href="instagram.com/lil_alone5" style="text-decoration:none; color:"#c00000;"><p>Instagram</p><p></a>
+    <a href="instagram.com/lil_alone5" style="text-decoration:none; color:#c00000;"><p>Instagram</p><p></a>
   </div>
   
 </div>
     
 </div>
+
+</body>
+</html>
