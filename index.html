@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Lil Alone_official</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 h1,h2 {
   text-align: center;
@@ -79,6 +80,22 @@ div.Navbar {
   margin-bottom: 0.5em;
 }
 
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
   
 </style>
 </head>
